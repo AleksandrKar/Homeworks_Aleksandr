@@ -2,7 +2,7 @@
 #include <fstream>
 
 const char CHARS_NUM = 'z'-'a';
-
+ 
 void fillRandomFile(std::ostream& out) {
     for (size_t i=0; i<50; i++){
         char c = ('a'+rand()%CHARS_NUM);
